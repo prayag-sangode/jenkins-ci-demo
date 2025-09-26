@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = 'html-app-demo'
+    IMAGE_NAME = 'jenkins-ci'
     IMAGE_TAG = 'v1'
     DOCKER_USER = 'prayags'
   }
