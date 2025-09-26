@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Clone repo') {
       steps {
-        sh 'rm -fr html-app-demo'
+        sh 'rm -fr jenkins-ci-demo'
         sh 'echo "Cloning a repo..."'
         sh 'git clone https://github.com/prayag-sangode/jenkins-ci-demo.git'
       }
