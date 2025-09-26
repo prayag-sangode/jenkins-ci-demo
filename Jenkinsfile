@@ -26,7 +26,7 @@ pipeline {
           ls -l /var/run/docker.sock
 
           echo "--- Building the Docker image ---"
-          cd html-app-demo
+          cd jenkins-ci-demo
           docker build -t ${IMAGE_NAME}:${IMAGE_TAG} -f Dockerfile .
         '''
       }
